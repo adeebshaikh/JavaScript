@@ -1,0 +1,45 @@
+<html>
+  <head>
+      <h2>Description of various console functions</h2>
+      <h4>
+      1.console.log():<br/>
+        The console.log() is a function that writes a message to log on the debugging console.<br/><br/>
+      
+      2.console.clear():<br/>
+        The console.clear() method clears the console if the environment allows it.<br/><br/>
+      
+      3.console.info():<br/>
+        The console.info() method outputs an informational message to the Web Console.<br/><br/>
+      
+      4.console.warn():<br/>
+        Outputs a warning message to the Web Console.<br/><br/>
+      
+      5.console.error():<br/>
+        Outputs an error message to the Web Console.<br/><br/>
+      
+      6.console.trace():<br/>
+        The console interface's trace() method outputs a stack trace to the Web Console.<br/><br/>
+      
+      7.console.time():<br/>
+        Starts a timer you can use to track how long an operation takes.<br/><br/>
+      
+      8.console.timeEnd():<br/>
+        Stops a timer that was previously started by calling console.time()<br/>
+      
+      </h4>
+      <h2>Example code for various methods in console function.</h2>
+  </head>
+  <body>
+        <script type="text/javascript">
+          console.clear();
+          console.time('fetching data');
+          var name = 'Alligator';
+          console.log('Hello ', name);
+          console.info('Just FYI');
+          console.warn('Lookout!');
+          console.error('Boom 💣');
+          console.trace('name:', name);
+          console.timeEnd('fetching data');
+        </script>
+  </body>
+</html>
