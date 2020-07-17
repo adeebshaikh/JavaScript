@@ -14,7 +14,7 @@
     <script type = "text/javascript">
         let mark=prompt("Enter the marks of the student",'0 - 100');
         let a=mark/10;
-        let marks=Math.round(a);
+        let marks=Math.ceil(a);
         let result = (marks==10) ? `Marks: ${mark} Grade: O`: 
                      (marks==9) ? `Marks: ${mark} Grade: A+`:
                      (marks==8) ? `Marks: ${mark} Grade: A`:
