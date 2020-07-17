@@ -13,7 +13,10 @@
 <body>
     <script type = "text/javascript">
         let data = prompt("Enter the OS Name and Version seperated by using space");
-        console.log(`The OS name and Version is: ${data}`);
+        let i = data.indexOf(' ');
+        let partOne = data.slice(0,i).trim();
+        let partTwo = data.slice(i+1,data.length).trim();
+        console.log(`The OS Name is ${partOne} and Version is ${partTwo}`);
     </script>
 </body>
 </html>
