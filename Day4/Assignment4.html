@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <h2>Calculator Result logged in console.</h2>
+</head>
+<body>
+    <script type="text/javascript">  
+          let a1 = prompt("Enter the first number",'INTEGER');
+          let a2 = prompt("Enter the operator",'+,-,/,*');
+          let a3 = prompt("Enter the second number",'INTEGER');
+          let a4;
+         switch(a2)
+         {
+          case '+' : a4=a1+a3; break;     
+          case '-' : a4=a1-a3; break;
+          case '*' : a4=a1*a3; break;
+          case '/' : a4=a1/a3; break;
+         }
+        console.log(`Result = ${a4}`);
+    </script>
+</body>
+</html>

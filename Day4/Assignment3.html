@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ShoppingBasket</title>
+    <h2>ShoppingBasket logged in console.</h2>
+</head>
+<body>
+    <script type ="text/JavaScript">
+        let ShoppingList=['Apple','Orange','Grapes','Lays'];
+        let ShoppingBasket=ShoppingList;
+        let n=prompt("Enter the number of items to be added:",'INTEGER VALUE');
+        for(let i=0;i<n;i++)
+        {
+         let add=prompt(`Enter item no.${i+1} to be added:`,'Fruits,Vegetables,Snacks...')
+         ShoppingBasket.push(add);
+        }
+        console.log(ShoppingBasket);
+    </script>
+</body>
+</html>

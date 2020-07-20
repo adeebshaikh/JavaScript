@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Sales</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let min=0;
+        let a=prompt(`Sales done by the employee:`);
+        if(a<=5000) console.log(`Commission earned: 2%`); 
+        min=5001;
+        if(a>=min && a<=10000)  console.log(`Commission earned: 5%`);
+        min=10001;
+        if(a>=min && a<=20000)  console.log(`Commission earned: 7%`);
+        min=20001;
+        if(a>=min)  console.log(`Commission earned: 10%`);
+    </script>
+</body>
+</html>
